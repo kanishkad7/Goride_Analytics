@@ -228,3 +228,114 @@
 | 2025-04-01 00:00:00 | 44308.02 |
 
 ---
+
+## Q19. Drivers using multiple vehicles
+
+| driver_id | driver_name | vehicle_count |
+|------------|--------------|----------------|
+| 1 | Erik Schulz | 3 |
+| 21 | Lina Schneider | 3 |
+| 22 | Noah Hartmann | 3 |
+| 28 | Sophie Braun | 3 |
+| 37 | Emma Schulz | 3 |
+| 46 | Lara Meyer | 3 |
+| 48 | Liam Mueller | 3 |
+| 49 | Eva Schmitt | 3 |
+| 52 | Maria Lange | 3 |
+| 54 | Jonas Schulz | 3 |
+
+---
+
+## Q20. Top parcel pickup zones
+
+| zone_name | package_count |
+|------------|----------------|
+| Lichtenberg | 300 |
+| Schoneberg | 297 |
+| Friedrichshain | 293 |
+| Mitte | 290 |
+| Prenzlauer Berg | 290 |
+| Charlottenburg | 289 |
+| Treptow | 287 |
+| Neukolln | 282 |
+| Steglitz | 282 |
+| Moabit | 281 |
+
+---
+
+## Q21. Customers with both trips and parcel deliveries
+
+| customer_id | name |
+|--------------|------|
+| 1 | Tom Werner |
+| 2 | Maria Weber |
+| 3 | Lena Zimmermann |
+| 4 | Erik Fischer |
+| 5 | Lena Krueger |
+| 6 | Theo Hofmann |
+| 7 | Emma Krause |
+| 8 | Leon Schmitt |
+| 10 | Olivia Hartmann |
+| 13 | Lara Neumann |
+
+---
+
+## Q22. Highest rated services by source system
+
+| source_system | avg_rating |
+|----------------|------------|
+| quickhop | 4.26 |
+| goride | 4.25 |
+
+---
+
+## Q23. Highest grossing business customers
+
+| customer_id | business_name | total_spend |
+|--------------|----------------|-------------|
+| 3218 | Kiez Blumen | 358.92 |
+| 3206 | Kreuzberg Bistro | 358.84 |
+| 3248 | Friedrich Italiano | 352.36 |
+| 3211 | Kreuzberg Italiano | 341.32 |
+| 3233 | Mitte Bistro | 336.08 |
+| 3209 | Friedrich Blumen | 334.29 |
+| 3225 | Kiez Kaffee | 328.03 |
+| 3217 | Schoneberg Blumen | 320.82 |
+| 3219 | Kiez Eis | 312.92 |
+| 3230 | Friedrich Sushi | 296.56 |
+
+---
+
+## Q24. Most active drivers by total services
+
+| driver_id | driver_name | total_services |
+|------------|--------------|----------------|
+| 250 | Noah Schneider | 81 |
+| 420 | Lena Meyer | 81 |
+| 231 | Liam Schulz | 79 |
+| 285 | Maria Becker | 78 |
+| 362 | Lina Fischer | 78 |
+| 130 | Marie Schmidt | 76 |
+| 156 | Anna Lange | 75 |
+| 283 | Leon Werner | 75 |
+| 314 | Sven Lange | 75 |
+| 2 | Erik Fischer | 74 |
+
+---
+
+## Q25. Cross-platform duplicate customers
+
+| normalized_name | duplicate_count |
+|------------------|-----------------|
+| lara neumann | 11 |
+| lea bauer | 10 |
+| olivia werner | 10 |
+| eva richter | 9 |
+| hannah lange | 9 |
+| hannah mueller | 9 |
+| hannah werner | 9 |
+| hannah zimmermann | 9 |
+| lara klein | 9 |
+| lea wagner | 9 |
+
+---
