@@ -1,0 +1,5 @@
+1. One difficult issue in this assignment was handling inconsistent status values between systems. Some records used values like finished and noshow instead of completed and no_show. I handled this using CASE statements and LOWER/TRIM normalization in SQL queries.
+
+2. Another challenge was joining tables with different data types. In several queries, payment.service_id was stored as text while trip_id and delivery_id were UUID values. I solved this by explicitly casting UUID columns using ::text during joins.
+
+3. The hardest queries for me were the revenue and aggregation questions because they required joins across payment, trip, customer, driver, and zone tables while also applying filters for successful payments only. I also learned the importance of ORDER BY, LIMIT, and data cleaning in real-world analytics datasets.
